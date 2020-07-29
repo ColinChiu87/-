@@ -1,0 +1,42 @@
+.content-img {
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    transform: scale(1, 1);
+    transition: all .5s ease-out;
+
+    /*相同格式，不同圖片用法*/
+    &-i1 {
+        background-image: url('../../img/autumn-1170x780 (1).jpg');
+    }
+
+    &-i2 {
+        background-image: url('../../img/2 (1).jpg');
+    }
+
+    &-i3 {
+        background-image: url('../../img/3 (1).jpg');
+    }
+
+    &-i4 {
+        background-image: url('../../img/4 (1).jpg');
+    }
+
+    &-i5 {
+        background-image: url('../../img/5 (1).jpg');
+    }
+
+    &-i6 {
+        background-image: url('../../img/6_big.jpg');
+    }
+
+    &-i7 {
+        background-image: url('../../img/7 (1).jpg');
+    }
+}
+
+.content-img:hover {
+    transform: scale(1.2, 1.2);
+}
